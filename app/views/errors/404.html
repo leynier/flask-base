@@ -1,0 +1,15 @@
+{% extends "main.html" %}
+{% block subtitle %} - Error 404{% endblock subtitle %}
+{% block page_content %}
+<div class="card text-light bg-dark">
+    <div class="card-header">
+        <h2 class="m-0">Error 404</h2>
+    </div>
+    <div class="card-body">
+        404 - Page Not Found.
+    </div>
+    <div class="card-footer">
+        <a href="{{ url_for('main.index') }}" class="btn btn-block btn-outline-light">Go to Home</a>
+    </div>
+</div>
+{% endblock page_content %}
