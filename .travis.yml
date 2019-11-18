@@ -1,8 +1,7 @@
 language: python
 python:
-  - "3.6"
+  - "3.6.8"
 install:
   - pipenv install
 script:
-  - pytest
   - python tests.py
