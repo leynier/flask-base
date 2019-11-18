@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/leynier/flask-base.svg?branch=master)](https://travis-ci.org/leynier/flask-base)
+
 Flask Base
 ==========
 
